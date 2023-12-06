@@ -21,4 +21,4 @@ RUN curl -Ssl https://github.com/mvdan/sh/releases/download/v3.2.4/shfmt_v3.2.4_
 
 # Install network tool
 RUN apt-get update \
-    && apt install -y iptables iptables-persistent ethtool
+    && apt install -y iptables iptables-persistent ethtool netcat-openbsd
